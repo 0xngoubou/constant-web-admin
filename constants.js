@@ -1,0 +1,16 @@
+export const VERIFIED_LEVEL_NEW = 0;
+export const VERIFIED_LEVEL_EMAIL = 1;
+export const VERIFIED_LEVEL_SUBMITTED = 2;
+export const VERIFIED_LEVEL_PENDING = 3;
+export const VERIFIED_LEVEL_VERIFYING = 4;
+export const VERIFIED_LEVEL_REJECTED = 5;
+export const VERIFIED_LEVEL_PRIMETRUST = 6;
+export const VERIFIED_LEVEL = {
+  [VERIFIED_LEVEL_NEW]: "New",
+  [VERIFIED_LEVEL_EMAIL]: "Verified Email",
+  [VERIFIED_LEVEL_SUBMITTED]: "Submitted",
+  [VERIFIED_LEVEL_PENDING]: "Pending",
+  [VERIFIED_LEVEL_VERIFYING]: "Verifying",
+  [VERIFIED_LEVEL_REJECTED]: "Rejected",
+  [VERIFIED_LEVEL_PRIMETRUST]: "Passed"
+};
